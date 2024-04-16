@@ -6,6 +6,8 @@ const router = express.Router();
 router.route("/")
     .get(loans.findAll)
     .post(loans.create)
+    .delete(loans.deleteAll)
+
 
 
 router.route("/:id")

@@ -6,7 +6,7 @@ const router = express.Router();
 router.route("/")
     .get(users.findAll)
     .post(users.create)
-
+    .post(users.deleteAll)
 
 router.route("/:id")
     .get(users.findOne)

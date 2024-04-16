@@ -13,3 +13,6 @@ exports.update = (req, res) => {
 exports.delete = (req, res) => {
     res.send({ message: "delete loan" })
 };
+exports.deleteAll = (req, res) => {
+    res.send({ message: "delete all loan" })
+};
